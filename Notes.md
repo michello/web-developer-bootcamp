@@ -54,3 +54,7 @@
 ## Intermediate Express
 * EJS -- templating langauge for javascript
 	- EJS stands for embedded javascript
+	- format: <%= SHIT HERE IS TREATED LIKE JS %>
+	- EJS brackets: <%= %>
+* pass variable as object you may want to use in your EJS like:
+	- res.render("fileName.ejs", { ejsVarName:jsVarName })
