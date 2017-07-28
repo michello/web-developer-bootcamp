@@ -58,3 +58,9 @@
 	- EJS brackets: <%= %>
 * pass variable as object you may want to use in your EJS like:
 	- res.render("fileName.ejs", { ejsVarName:jsVarName })
+* EJS tags (wrapped around stuff in every line that is javascript):
+	- <%= > : this is evaluated; like <%= 5 + 5 >; and will be added to the HTML
+	- <% %> : will run the code; for logic crap
+* EJS tags (love.ejs):
+	<% if (thingVar.toLowerCase() === "rusty") { %>
+* partials: templates of stuff we repeat that we can just import and use
